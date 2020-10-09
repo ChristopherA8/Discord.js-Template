@@ -19,7 +19,7 @@ client.on('ready', () => {
 
     // Sets Bot Status
     console.log("Connected as " + client.user.tag + ", yo it works")
-    client.user.setActivity("//help", {type: "PLAYING"})
+    client.user.setActivity(`${prefix}help`, {type: "PLAYING"})
 
 
 });
